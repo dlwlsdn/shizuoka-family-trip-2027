@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>시즈오카 가족여행 · 2027.01.21–25 · 4박 5일</title>
+<meta name="description" content="2027년 1월 21일~25일 시즈오카 7인 가족여행 검토안 — 항공·숙소·렌터카·일자별 일정과 예상 예산.">
+<meta name="theme-color" content="#0b1b26">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Crect%20width='100'%20height='100'%20rx='22'%20fill='%230b1b26'/%3E%3Ccircle%20cx='70'%20cy='28'%20r='8'%20fill='%23f3e3c5'/%3E%3Cpath%20d='M6%2084%20C28%2072%2038%2060%2050%2038%20C62%2060%2072%2072%2094%2084%20Z'%20fill='%23e9e3d5'/%3E%3C/svg%3E">
+<meta property="og:title" content="시즈오카 가족여행 · 2027.01.21–25">
+<meta property="og:description" content="4박 5일 · 7인(성인 5·어린이 2) · 나고야 경유 — 항공·숙소·렌터카·일정 정리">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#122029; --ink2:#3b4b54; --ink3:#6d7b84;
+  --line:#e4ded3; --line2:#d7cfc0;
+  --paper:#fbf9f5; --panel:#f6f2ea; --panel2:#eef3f3;
+  --teal:#1f4e5f; --teal2:#2f6a7d; --teal-soft:#dfe9ea;
+  --gold:#c9a16f; --acc:#b0743a; --navy:#0b1b26;
+  --max:940px;
+  --shadow:0 1px 2px rgba(18,32,41,.04), 0 12px 30px -18px rgba(18,32,41,.35);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%; scroll-behavior:smooth; scroll-padding-top:60px}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:'Noto Sans KR',-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;
+  font-weight:400; font-size:16px; line-height:1.7; letter-spacing:-.01em;
+  -webkit-font-smoothing:antialiased;
+}
+img,svg{max-width:100%}
+a{color:var(--teal); text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:var(--max); margin:0 auto; padding:0 20px}
+.num{font-variant-numeric:tabular-nums; font-weight:700; letter-spacing:-.02em}
+
+/* ---------------- hero ---------------- */
+.hero{
+  position:relative; overflow:hidden; color:#fff;
+  background:linear-gradient(170deg,#0b1b26 0%,#132f3b 42%,#1d4351 74%,#285763 100%);
+  padding:52px 0 0;
+}
+.hero .wrap{position:relative; z-index:3}
+.eyebrow{font-size:11px; letter-spacing:.28em; text-transform:uppercase; color:var(--gold); font-weight:500}
+.badge{
+  display:inline-flex; align-items:center; gap:7px;
+  margin-bottom:20px; padding:6px 13px 6px 10px; border-radius:100px;
+  border:1px solid rgba(201,161,111,.45); background:rgba(201,161,111,.12);
+  color:#f0dcc0; font-size:12px; letter-spacing:.02em; font-weight:500;
+}
+.badge .dot{width:6px;height:6px;border-radius:50%;background:var(--gold); box-shadow:0 0 0 3px rgba(201,161,111,.2)}
+.hero h1{
+  margin:14px 0 0; font-size:clamp(34px,8.4vw,58px); line-height:1.1;
+  font-weight:900; letter-spacing:-.035em;
+}
+.hero h1 small{display:block; font-size:clamp(12px,2.6vw,14px); font-weight:400; letter-spacing:.24em; color:#9fc0c6; margin-bottom:16px; text-transform:uppercase}
+.hero .sub{
+  margin:18px 0 0; font-size:clamp(15px,3.4vw,17px); line-height:1.65; color:#cfe0e2; font-weight:300; max-width:31em;
+}
+.hero .sub b{font-weight:500; color:#fff}
+.rule-gold{width:52px; height:2px; background:var(--gold); margin:24px 0 0; border-radius:2px}
+.facts{
+  display:grid; grid-template-columns:repeat(3,1fr); gap:1px; margin:34px 0 0;
+  background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.14); border-radius:12px; overflow:hidden;
+}
+.facts div{background:rgba(9,24,32,.55); padding:14px 14px 15px; backdrop-filter:blur(2px)}
+.facts .k{display:block; font-size:10.5px; letter-spacing:.14em; color:#8fabb1; margin-bottom:5px; text-transform:uppercase}
+.facts .v{font-size:15px; font-weight:500; color:#fff; line-height:1.45}
+.facts .v span{display:block; font-size:11.5px; color:#a9c1c5; font-weight:400; letter-spacing:0}
+.fuji{display:block; width:100%; height:clamp(140px,26vw,230px); margin-top:26px; position:relative; z-index:2}
+.stars{position:absolute; inset:0; z-index:1; pointer-events:none}
+
+/* ---------------- nav ---------------- */
+.nav{
+  position:sticky; top:0; z-index:60; background:rgba(251,249,245,.93);
+  backdrop-filter:saturate(1.4) blur(12px); -webkit-backdrop-filter:saturate(1.4) blur(12px);
+  border-bottom:1px solid var(--line);
+}
+.nav ul{
+  display:flex; gap:4px; margin:0 auto; padding:0 16px; max-width:var(--max);
+  list-style:none; overflow-x:auto; scrollbar-width:none; -ms-overflow-style:none;
+}
+.nav ul::-webkit-scrollbar{display:none}
+.nav a{
+  display:block; padding:13px 12px 11px; font-size:13.5px; color:var(--ink2);
+  white-space:nowrap; border-bottom:2px solid transparent; font-weight:500;
+}
+.nav a:hover{color:var(--teal); text-decoration:none; border-bottom-color:var(--teal-soft)}
+.nav a.on{color:var(--teal); border-bottom-color:var(--teal); font-weight:700}
+
+/* ---------------- sections ---------------- */
+section{padding:56px 0 8px}
+section+section{border-top:1px solid var(--line)}
+.sec-head{margin-bottom:26px}
+.sec-head .no{font-size:11px; letter-spacing:.24em; color:var(--acc); font-weight:700; text-transform:uppercase}
+.sec-head h2{margin:8px 0 0; font-size:clamp(23px,5.6vw,30px); font-weight:900; letter-spacing:-.035em; line-height:1.25}
+.sec-head .lead{margin:12px 0 0; color:var(--ink2); font-size:15.5px; line-height:1.72; max-width:38em; font-weight:300}
+.sec-head .lead b{font-weight:500; color:var(--ink)}
+h3{font-size:16px; font-weight:700; letter-spacing:-.02em; margin:34px 0 12px; display:flex; align-items:center; gap:9px}
+h3::before{content:''; width:4px; height:14px; background:var(--gold); border-radius:2px; flex:none}
+h3 .note{font-size:12px; font-weight:400; color:var(--ink3); letter-spacing:0}
+p{margin:0 0 12px}
+.muted{color:var(--ink3)}
+.small{font-size:13px; line-height:1.65; color:var(--ink2)}
+.tiny{font-size:11.5px; line-height:1.6; color:var(--ink3)}
+
+/* ---------------- cards ---------------- */
+.card{border:1px solid var(--line); border-radius:14px; background:#fff; padding:20px; box-shadow:var(--shadow)}
+.card.flat{background:var(--panel); border-color:var(--line); box-shadow:none}
+.card.tint{background:var(--panel2); border-color:#d8e3e4; box-shadow:none}
+.grid2{display:grid; grid-template-columns:1fr 1fr; gap:14px}
+.grid3{display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
+.stack{display:flex; flex-direction:column; gap:14px}
+
+/* budget */
+.budget{display:grid; grid-template-columns:1fr 1fr 1.18fr; gap:12px}
+.budget .b{border-radius:14px; padding:18px 18px 16px; border:1px solid var(--line); background:#fff}
+.budget .b .lab{font-size:11.5px; color:var(--ink3); letter-spacing:.02em}
+.budget .b .amt{font-size:clamp(19px,4.6vw,23px); margin-top:7px; font-weight:700; letter-spacing:-.03em}
+.budget .b .amt i{font-style:normal; font-size:12px; font-weight:400; color:var(--ink3); margin-left:2px; letter-spacing:0}
+.budget .b .sub{font-size:11.5px; color:var(--ink3); margin-top:2px}
+.budget .total{background:linear-gradient(160deg,#1f4e5f,#173d4b); border-color:#173d4b; color:#fff}
+.budget .total .lab{color:#a8c3c8}
+.budget .total .amt i{color:#a8c3c8}
+.budget .total .sub{color:#c3d7da}
+
+/* key-value rows */
+.kv{border:1px solid var(--line); border-radius:12px; overflow:hidden; background:#fff}
+.kv .row{display:grid; grid-template-columns:112px 1fr; gap:14px; padding:12px 16px; border-top:1px solid var(--line); font-size:14.5px}
+.kv .row:first-child{border-top:0}
+.kv .row .k{color:var(--ink3); font-size:13px; padding-top:1px}
+.kv .row .v{color:var(--ink)}
+.kv .row .v b{font-weight:500}
+.kv .row .v .accent{color:var(--acc); font-weight:700}
+
+/* tables */
+.table-wrap{overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--line); border-radius:12px; background:#fff}
+table{width:100%; border-collapse:collapse; font-size:14px}
+thead th{
+  text-align:left; font-size:11.5px; letter-spacing:.05em; color:var(--ink3); font-weight:500;
+  padding:11px 14px; background:var(--panel); border-bottom:1px solid var(--line); white-space:nowrap;
+}
+tbody td{padding:12px 14px; border-top:1px solid #efeae0; vertical-align:top}
+tbody tr:first-child td{border-top:0}
+td.hi{background:#f4f7f6}
+.on{color:var(--teal); font-weight:700}
+.diff{font-variant-numeric:tabular-nums; white-space:nowrap}
+.diff.minus{color:#3f7a52}
+.diff.plus{color:#9a5b3a}
+
+/* bars */
+.bars{margin-top:16px; display:flex; flex-direction:column; gap:11px}
+.bar-row{display:grid; grid-template-columns:96px 1fr 96px; gap:10px; align-items:center; font-size:12.5px}
+.bar-row .n{color:var(--ink2)}
+.bar-track{height:8px; background:#eeeadf; border-radius:6px; overflow:hidden}
+.bar-fill{height:100%; border-radius:6px; background:#b9c4c7}
+.bar-row.sel .bar-fill{background:var(--teal)}
+.bar-row.sel .n{color:var(--teal); font-weight:700}
+.bar-row .p{text-align:right; color:var(--ink2); font-variant-numeric:tabular-nums}
+
+/* stay cards */
+.stay{display:flex; flex-direction:column; height:100%}
+.stay .tag{font-size:11px; letter-spacing:.1em; color:var(--acc); font-weight:700}
+.stay.alt .tag{color:var(--teal2)}
+.stay h4{margin:10px 0 0; font-size:16.5px; line-height:1.4; font-weight:700; letter-spacing:-.025em}
+.stay .price{margin:12px 0 0; font-size:22px; font-weight:700; letter-spacing:-.03em}
+.stay .price i{font-style:normal; font-size:12px; font-weight:400; color:var(--ink3); margin-left:2px}
+.stay .per{font-size:11.5px; color:var(--ink3); margin-top:2px}
+.stay ul{margin:12px 0 0; padding:0; list-style:none; font-size:13px; color:var(--ink2); line-height:1.7}
+.stay ul li{position:relative; padding-left:13px}
+.stay ul li::before{content:''; position:absolute; left:0; top:.68em; width:4px; height:4px; border-radius:50%; background:var(--line2)}
+.stay .foot{margin-top:auto; padding-top:16px}
+
+/* buttons */
+.btn{
+  display:inline-flex; align-items:center; justify-content:space-between; gap:10px;
+  width:100%; padding:12px 15px; border-radius:10px; background:var(--teal); color:#fff;
+  font-size:13.5px; font-weight:500; border:1px solid var(--teal); transition:background .16s, transform .16s;
+}
+.btn:hover{background:#173d4b; text-decoration:none}
+.btn .arw{font-size:15px; opacity:.75}
+.btn.ghost{background:#fff; color:var(--teal); border-color:var(--line2)}
+.btn.ghost:hover{background:var(--panel)}
+
+/* timeline */
+.day{margin-top:26px; border:1px solid var(--line); border-radius:14px; background:#fff; overflow:hidden; box-shadow:var(--shadow)}
+.day-head{display:flex; align-items:baseline; gap:12px; padding:14px 18px; background:var(--panel); border-bottom:1px solid var(--line); flex-wrap:wrap}
+.day-head .d{font-size:11px; letter-spacing:.14em; font-weight:700; color:var(--acc)}
+.day-head .date{font-size:15px; font-weight:700; letter-spacing:-.02em}
+.day-head .what{font-size:12.5px; color:var(--ink3); margin-left:auto}
+.tl{list-style:none; margin:0; padding:6px 18px 16px}
+.tl li{display:grid; grid-template-columns:58px 1fr; gap:14px; padding:9px 0; border-top:1px dashed #eee8dd; font-size:14px; line-height:1.6}
+.tl li:first-child{border-top:0}
+.tl .t{color:var(--teal); font-weight:700; font-size:12.5px; letter-spacing:0; padding-top:2px; font-variant-numeric:tabular-nums}
+.tl b{font-weight:500}
+.tl .map{font-size:11.5px; color:var(--ink3); margin-left:6px; white-space:nowrap; border-bottom:1px dotted var(--line2)}
+.tl .map:hover{color:var(--teal); text-decoration:none}
+
+/* tabs */
+.tabs{display:flex; gap:8px; padding:14px 18px 0}
+.tab-btn{
+  flex:1; padding:11px 12px; border-radius:9px 9px 0 0; border:1px solid var(--line); border-bottom:0;
+  background:var(--panel); color:var(--ink3); font-size:13px; font-weight:500; cursor:pointer;
+  font-family:inherit; transition:.15s; letter-spacing:-.01em;
+}
+.tab-btn[aria-selected="true"]{background:#fff; color:var(--ink); font-weight:700; box-shadow:inset 0 3px 0 var(--accent-c)}
+#tabA{--accent-c:var(--acc)}
+#tabB{--accent-c:var(--teal2)}
+.tab-panel{display:none; padding:18px}
+.tab-panel.on{display:block}
+.tab-panel h5{margin:0 0 4px; font-size:15.5px; font-weight:700; letter-spacing:-.02em}
+.tab-panel .meta{font-size:12px; color:var(--ink3); margin-bottom:12px}
+.tab-panel ul{margin:0; padding:0; list-style:none; font-size:13.5px; color:var(--ink2); line-height:1.75}
+.tab-panel ul li{position:relative; padding-left:14px}
+.tab-panel ul li::before{content:''; position:absolute; left:0; top:.7em; width:4px; height:4px; border-radius:50%; background:var(--line2)}
+.chips{display:flex; gap:7px; flex-wrap:wrap; margin-top:14px}
+.chip{font-size:11.5px; padding:5px 10px; border-radius:100px; background:var(--panel); color:var(--ink2); border:1px solid var(--line)}
+
+/* callouts */
+.note{border-left:3px solid var(--gold); background:#fdfaf3; padding:13px 16px; border-radius:0 10px 10px 0; font-size:13.5px; line-height:1.65; color:var(--ink2)}
+.note b{color:var(--ink); font-weight:500}
+.warn{border-left:3px solid #c2703f; background:#fdf4ef}
+.warn b{color:#8f4a24}
+
+/* checklist */
+.check{background:#fff; border:1px solid var(--line); border-radius:14px; overflow:hidden; box-shadow:var(--shadow)}
+.check-top{display:flex; align-items:center; justify-content:space-between; gap:12px; padding:14px 18px; background:var(--panel); border-bottom:1px solid var(--line); font-size:13px; color:var(--ink2)}
+.check-top .prog{font-variant-numeric:tabular-nums; font-weight:700; color:var(--teal)}
+.check ul{list-style:none; margin:0; padding:4px 0}
+.check li{border-top:1px solid #f1ece2}
+.check li:first-child{border-top:0}
+.check label{display:flex; gap:12px; align-items:flex-start; padding:14px 18px; cursor:pointer; font-size:14px; line-height:1.6; transition:background .15s}
+.check label:hover{background:#fcfaf6}
+.check input{appearance:none; -webkit-appearance:none; flex:none; width:20px; height:20px; margin:2px 0 0; border:1.4px solid var(--line2); border-radius:6px; background:#fff; cursor:pointer; position:relative; transition:.15s}
+.check input:checked{background:var(--teal); border-color:var(--teal)}
+.check input:checked::after{content:''; position:absolute; left:6px; top:2.5px; width:5px; height:10px; border:solid #fff; border-width:0 2px 2px 0; transform:rotate(43deg)}
+.check input:checked+span{color:var(--ink3); text-decoration:line-through; text-decoration-color:var(--line2)}
+.check .why{display:block; font-size:11.5px; color:var(--ink3); margin-top:2px; text-decoration:none}
+
+/* footer */
+footer{margin-top:40px; background:var(--navy); color:#b9ccd0; padding:38px 0 30px}
+footer .wrap{max-width:var(--max)}
+footer .big{color:#fff; font-size:15px; font-weight:500; letter-spacing:-.02em; margin-bottom:10px}
+footer .tiny{color:#8ba4a9}
+footer .row{display:flex; flex-wrap:wrap; gap:10px; margin-top:18px}
+.share{
+  display:inline-flex; align-items:center; gap:8px; padding:10px 15px; border-radius:9px;
+  border:1px solid rgba(255,255,255,.22); background:rgba(255,255,255,.06); color:#fff;
+  font-size:13px; font-family:inherit; cursor:pointer; transition:.15s;
+}
+.share:hover{background:rgba(255,255,255,.13)}
+.share.ok{border-color:#7fb08d; color:#bfe0c8}
+footer .sep{height:1px; background:rgba(255,255,255,.12); margin:26px 0 18px}
+
+@media (max-width:720px){
+  .budget{grid-template-columns:1fr 1fr}
+  .budget .total{grid-column:1 / -1}
+  .grid2,.grid3{grid-template-columns:1fr}
+  .facts{grid-template-columns:1fr; gap:1px}
+  .facts div{display:flex; align-items:baseline; gap:10px; padding:11px 14px}
+  .facts .k{margin:0; min-width:58px}
+  .facts .v{font-size:14px}
+  .kv .row{grid-template-columns:88px 1fr; gap:10px; padding:11px 14px}
+  section{padding:44px 0 6px}
+  .day-head .what{margin-left:0; width:100%}
+  .tl li{grid-template-columns:52px 1fr; gap:10px; font-size:13.5px}
+  .tab-btn{font-size:12px; padding:10px 8px}
+  .bar-row{grid-template-columns:80px 1fr 84px; font-size:12px}
+}
+@media (max-width:430px){
+  .wrap{padding:0 16px}
+  .budget{grid-template-columns:1fr}
+  thead th,tbody td{padding:10px 11px}
+}
+@media print{
+  .nav,.share,.tab-btn{display:none}
+  body{background:#fff}
+  .hero{padding-top:24px}
+  .tab-panel{display:block !important}
+  section{page-break-inside:avoid}
+  a{color:inherit}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none !important; scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<!-- =================== HERO =================== -->
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="badge"><span class="dot"></span>예약 전 검토안 · 2026-11-15 조회 기준</div>
+    <h1><small>Family Trip Guide · Winter 2027</small>시즈오카 가족여행</h1>
+    <div class="rule-gold"></div>
+    <p class="sub">후지산 기슭에서 <b>3박</b>, 하마나코 호수 온천에서 <b>1박</b>.<br>일곱 명이 한 대의 차로 움직이는 <b>4박 5일</b>.</p>
+    <div class="facts">
+      <div><span class="k">여행 기간</span><span class="v">2027. 1. 21 – 25<span>목 출발 · 월 귀국</span></span></div>
+      <div><span class="k">일정</span><span class="v">4박 5일<span>나고야 경유</span></span></div>
+      <div><span class="k">인원</span><span class="v">7명<span>성인 5 · 어린이 2</span></span></div>
+    </div>
+  </div>
+  <svg class="fuji" viewBox="0 0 1200 300" preserveAspectRatio="none" aria-hidden="true">
+    <defs>
+      <linearGradient id="mtn" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#1b3b47"/><stop offset="0.55" stop-color="#122c37"/><stop offset="1" stop-color="#0a1922"/>
+      </linearGradient>
+      <linearGradient id="snow" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#f2ecdf"/><stop offset="1" stop-color="#dcd6c7"/>
+      </linearGradient>
+    </defs>
+    <g opacity="0.5">
+      <circle cx="150" cy="58" r="1.4" fill="#cfe0e2" opacity=".7"/>
+      <circle cx="262" cy="34" r="1.1" fill="#cfe0e2" opacity=".5"/>
+      <circle cx="980" cy="46" r="1.3" fill="#cfe0e2" opacity=".6"/>
+      <circle cx="1075" cy="86" r="1" fill="#cfe0e2" opacity=".45"/>
+      <circle cx="700" cy="30" r="1" fill="#cfe0e2" opacity=".4"/>
+      <circle cx="430" cy="66" r="1.2" fill="#cfe0e2" opacity=".5"/>
+    </g>
+    <circle cx="905" cy="96" r="46" fill="#f3e3c5" opacity=".07"/>
+    <circle cx="905" cy="96" r="46" fill="none" stroke="#f3e3c5" stroke-opacity=".16" stroke-width="1"/>
+    <circle cx="905" cy="96" r="26" fill="#f3e3c5" opacity=".14"/>
+    <path d="M0 300 C140 268 250 232 340 196 C400 170 470 132 540 96 C566 82 589 56 600 30 C611 56 634 82 660 96 C730 132 800 170 860 196 C950 232 1060 268 1200 300 Z" fill="url(#mtn)"/>
+    <path d="M600 30 C611 56 634 82 660 96 C640 100 622 92 612 104 C602 88 588 104 578 96 C566 100 566 92 540 96 C566 82 589 56 600 30 Z" fill="url(#snow)" opacity=".95"/>
+    <path d="M0 300 C140 268 250 232 340 196" fill="none" stroke="#3d6b78" stroke-opacity=".35" stroke-width="1"/>
+    <path d="M860 196 C950 232 1060 268 1200 300" fill="none" stroke="#3d6b78" stroke-opacity=".35" stroke-width="1"/>
+    <g opacity=".22" fill="#c7d8d9">
+      <rect x="0" y="246" width="1200" height="9"/>
+      <rect x="0" y="272" width="1200" height="11"/>
+      <rect x="0" y="292" width="1200" height="8"/>
+    </g>
+  </svg>
+</header>
+
+<!-- =================== NAV =================== -->
+<nav class="nav" aria-label="목차">
+  <ul>
+    <li><a href="#summary">한눈에 보기</a></li>
+    <li><a href="#flight">항공</a></li>
+    <li><a href="#stay">숙소</a></li>
+    <li><a href="#car">렌터카·이동</a></li>
+    <li><a href="#plan">일자별 일정</a></li>
+    <li><a href="#check">체크리스트</a></li>
+  </ul>
+</nav>
+
+<main>
+<!-- =================== SUMMARY =================== -->
+<section id="summary">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="no">01 · 한눈에 보기</div>
+      <h2>닷새의 흐름과 예상 예산</h2>
+      <p class="lead">인천에서 나고야까지 1시간 45분, 공항에서 숙소까지 다시 2시간 15분. 닷새 동안은 알파드 한 대로 움직이고, 3박은 후지 기슭 독채에서, 마지막 1박은 하마나코 온천에서 묵습니다.</p>
+    </div>
+
+    <div class="kv">
+      <div class="row"><div class="k">여행 기간</div><div class="v">2027년 1월 21일(목) ~ 1월 25일(월) · 4박 5일</div></div>
+      <div class="row"><div class="k">인원</div><div class="v">7명 — 성인 5명 + 어린이 2명</div></div>
+      <div class="row"><div class="k">항공</div><div class="v">제주항공 왕복 · 인천 T1 출·도착 (7C1201 / 7C1202)</div></div>
+      <div class="row"><div class="k">현지 이동</div><div class="v">나고야 중부국제공항 ↔ 시즈오카 · 토요타 알파드 8인승 1대 (운전 1명)</div></div>
+      <div class="row"><div class="k">숙소</div><div class="v">신후지 5침실 독채 3박 + 하마나코 온천 리조트 1박</div></div>
+      <div class="row"><div class="k">예상 예산</div><div class="v"><span class="accent num">3,910,249원</span> (1인 558,607원) — 렌터카·식비·입장료 별도</div></div>
+      <div class="row"><div class="k">현재 상태</div><div class="v">일행 상의 후 최종 확정 대기 · 항공·숙소 모두 <b>미결제</b></div></div>
+    </div>
+
+    <h3>예상 예산 <span class="note">항공 + 숙소 7인 합계</span></h3>
+    <div class="budget">
+      <div class="b">
+        <div class="lab">항공 · 제주항공 7인</div>
+        <div class="amt num">2,642,100<i>원</i></div>
+        <div class="sub">1인 377,443원</div>
+      </div>
+      <div class="b">
+        <div class="lab">숙소 · 독채 3박 + 온천 1박</div>
+        <div class="amt num">1,268,149<i>원</i></div>
+        <div class="sub">1인 181,164원</div>
+      </div>
+      <div class="b total">
+        <div class="lab">합계 · 1인 558,607원</div>
+        <div class="amt num">3,910,249<i>원</i></div>
+        <div class="sub">약 391만 원</div>
+      </div>
+    </div>
+    <div class="note" style="margin-top:14px">
+      <b>별도 현지 비용</b> — 토요타 알파드 4박 5일 렌터카 · 고속도로 통행료(ETC) · 유류비 · 주차비 · 식비 · 관광지 입장료. 위 금액은 항공과 숙소만 계산한 값입니다.
+    </div>
+
+    <h3>닷새의 흐름</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th style="width:64px">DAY</th><th style="width:86px">날짜</th><th>내용</th></tr></thead>
+        <tbody>
+          <tr><td class="on" style="font-size:12px">DAY 1</td><td>1/21 목</td><td>나고야 10:55 도착 → 알파드 수령 → 하마마츠에서 점심 → 신후지 독채 체크인</td></tr>
+          <tr><td class="on" style="font-size:12px">DAY 2</td><td>1/22 금</td><td>후지산 데이 — 마카이노 목장 · 센겐타이샤 · 시라이토 폭포 · 유메노오하시</td></tr>
+          <tr><td class="on" style="font-size:12px">DAY 3</td><td>1/23 토</td><td>선택 코스 — A안 후지 사파리 + 고텐바 아울렛 / B안 이즈 파노라마 + 딸기 따기 + 슈젠지 온천</td></tr>
+          <tr><td class="on" style="font-size:12px">DAY 4</td><td>1/24 일</td><td>체크아웃 → 니혼다이라 → 시미즈항 참치 → 하마나코 온천 체크인</td></tr>
+          <tr><td class="on" style="font-size:12px">DAY 5</td><td>1/25 월</td><td>08:30 출발 → 공항 → 7C1202 11:55 → 인천 T1 14:15 도착</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- =================== FLIGHT =================== -->
+<section id="flight">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="no">02 · 항공</div>
+      <h2>항공권</h2>
+      <p class="lead">제주항공 왕복으로 정리했습니다. 인천 T1으로 나가고 T1으로 돌아오며, 09:10 출발이라 어린이 둘과 함께 새벽에 공항으로 향하지 않아도 됩니다.</p>
+    </div>
+
+    <h3>확정 공유안 · 제주항공 왕복</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th style="width:74px">구간</th><th style="width:84px">날짜</th><th style="width:80px">편명</th><th>출발</th><th>도착</th></tr></thead>
+        <tbody>
+          <tr><td>가는 편</td><td>1/21 목</td><td class="on">7C1201</td><td><b>09:10</b> 인천 T1</td><td><b>10:55</b> 나고야</td></tr>
+          <tr><td>오는 편</td><td>1/25 월</td><td class="on">7C1202</td><td><b>11:55</b> 나고야</td><td><b>14:15</b> 인천 T1</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid2" style="margin-top:14px">
+      <div class="card flat">
+        <div class="tiny">운임 등급</div>
+        <div style="font-size:16px; font-weight:700; margin-top:4px">스탠다드</div>
+        <div class="small" style="margin-top:3px">기내 수하물 10kg + 위탁 15kg</div>
+      </div>
+      <div class="card flat">
+        <div class="tiny">7인 총액</div>
+        <div class="num" style="font-size:20px; margin-top:4px">2,642,100원 <span style="font-size:12px;font-weight:400;color:var(--ink3)">1인 377,443원</span></div>
+        <div class="small" style="margin-top:3px">즉시할인 적용 시 256만 원대</div>
+      </div>
+    </div>
+
+    <div class="note warn" style="margin-top:14px">
+      2026년 11월 15일 조회 기준 <b>편당 잔여 9석</b>. 7인분을 한 번에 발권해야 해서 실제 예매 시점에 좌석과 요금이 달라질 수 있습니다.
+    </div>
+
+    <h3>참고 비교 <span class="note">같은 기간 · 2026-11-15 조회</span></h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>항공사</th><th>시간 (출발 / 귀국)</th><th>터미널</th><th>위탁</th><th>7인 총액</th><th>차액</th></tr></thead>
+        <tbody>
+          <tr><td class="hi"><b>제주항공</b> <span style="font-size:10.5px;color:var(--acc);font-weight:700">확정안</span></td><td class="hi">09:10 / 11:55</td><td class="hi">T1 – T1</td><td class="hi">15kg</td><td class="hi num">2,642,100원</td><td class="hi muted">기준</td></tr>
+          <tr><td>진에어 <span class="tiny">(트립닷컴)</span></td><td>07:30 / 10:40</td><td>T2 – T2</td><td>15kg</td><td class="num">2,631,300원</td><td class="diff minus">−10,800원</td></tr>
+          <tr><td>대한항공</td><td>10:35 / 13:40</td><td>T2 – T2</td><td>23kg</td><td class="num">4,113,700원</td><td class="diff plus">+1,471,600원</td></tr>
+          <tr><td>대한항공 + 진에어</td><td>10:35 / 10:40</td><td>T2 – T2</td><td>23 / 15kg</td><td class="num">3,421,800원~</td><td class="diff plus">+779,700원</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="bars" aria-hidden="true">
+      <div class="bar-row sel"><span class="n">제주항공</span><span class="bar-track"><span class="bar-fill" style="width:64.2%"></span></span><span class="p">2,642,100</span></div>
+      <div class="bar-row"><span class="n">진에어</span><span class="bar-track"><span class="bar-fill" style="width:64.0%"></span></span><span class="p">2,631,300</span></div>
+      <div class="bar-row"><span class="n">대한항공+진에어</span><span class="bar-track"><span class="bar-fill" style="width:83.2%"></span></span><span class="p">3,421,800</span></div>
+      <div class="bar-row"><span class="n">대한항공</span><span class="bar-track"><span class="bar-fill" style="width:100%"></span></span><span class="p">4,113,700</span></div>
+    </div>
+
+    <div class="note" style="margin-top:16px">
+      <b>왜 제주항공인가</b> — 진에어가 1만 원가량 싸지만 07:30 출발은 새벽 5시 30분 공항 도착을 뜻합니다. 제주항공은 <b>T1 출·도착 일치</b>와 <b>09:10 출발</b>을 모두 만족하는 균형점입니다.
+    </div>
+  </div>
+</section>
+
+<!-- =================== STAY =================== -->
+<section id="stay">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="no">03 · 숙소</div>
+      <h2>3박은 독채, 1박은 온천</h2>
+      <p class="lead">3박은 후지 기슭 독채에서 한 집처럼, 마지막 1박은 하마나코 호수 온천에서. 7인이 아침을 함께 준비하고, 마지막 밤에 온천으로 피로를 푸는 구성입니다.</p>
+    </div>
+
+    <div class="grid2">
+      <div class="card stay">
+        <div class="tag">1 – 3박 · 1/21(목) ~ 1/24(일)</div>
+        <h4>신후지역<br>5침실 3욕실 신축 독채</h4>
+        <div class="price num">992,253<i>원</i></div>
+        <div class="per">3박 합계 · 1박 평균 330,751원</div>
+        <ul>
+          <li>침실 5 · 침대 10 · 욕실 3 — 7인이 아침에 한꺼번에 준비해도 병목이 없습니다</li>
+          <li>신후지역 도보 7분</li>
+          <li>알파드는 인근 유료 코인주차장 이용</li>
+        </ul>
+        <div class="foot">
+          <a class="btn" href="https://www.airbnb.co.kr/rooms/1618747894031740185?check_in=2027-01-21&amp;check_out=2027-01-24&amp;adults=5&amp;children=2" target="_blank" rel="noopener">에어비앤비에서 보기 <span class="arw">↗</span></a>
+          <div class="tiny" style="margin-top:9px">airbnb.co.kr/rooms/1618747894031740185 · 1/21~24 · 성인 5 · 어린이 2</div>
+        </div>
+      </div>
+
+      <div class="card stay alt tint">
+        <div class="tag">4박 · 1/24(일) ~ 1/25(월)</div>
+        <h4>그랜드 머큐어<br>레이크 하마나 리조트 &amp; 스파</h4>
+        <div class="price num">275,896<i>원</i></div>
+        <div class="per">클래식 트윈 3실 · 하마마츠 하마나코</div>
+        <ul>
+          <li>호수 앞 온천 리조트, 마지막 밤 휴식용</li>
+          <li>2026-11-15 지역 검색 기준 요금</li>
+          <li>호텔 직접 검색에서는 3실 예약 불가로 표시</li>
+          <li style="color:#8f4a24; font-weight:500">예약 전 3실 재확인 필요</li>
+        </ul>
+        <div class="foot">
+          <a class="btn" href="https://www.booking.com/hotel/jp/grand-mercure-lake-hamana-resort-spa.ko.html?checkin=2027-01-24&amp;checkout=2027-01-25&amp;group_adults=5&amp;group_children=2&amp;no_rooms=3" target="_blank" rel="noopener">부킹닷컴에서 보기 <span class="arw">↗</span></a>
+          <div class="tiny" style="margin-top:9px">booking.com/hotel/jp/grand-mercure-lake-hamana-resort-spa · 1/24~25 · 3실</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card flat" style="margin-top:14px; display:flex; flex-wrap:wrap; gap:8px 18px; align-items:baseline">
+      <span class="tiny">숙소 합계</span>
+      <span style="font-size:16px" class="num">1,268,149원</span>
+      <span class="tiny">1인 181,164원 &nbsp;·&nbsp; 독채 992,253 + 온천 275,896</span>
+    </div>
+
+    <h3>만실·조건 변동 시 대체 온천 숙소</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>숙소</th><th>1박 3실</th><th>식사</th><th>차액</th></tr></thead>
+        <tbody>
+          <tr><td><b>호텔 그린 플라자 하마나코</b></td><td class="num">811,386원</td><td>조·석식 포함</td><td class="diff plus">+535,490원</td></tr>
+          <tr><td><b>완완 파라다이스 하마나코</b></td><td class="num">786,521원</td><td>조·석식 포함</td><td class="diff plus">+510,625원</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tiny" style="margin-top:9px">세금(8,779원) 포함 금액. 두 곳 모두 조식·석식이 붙어 있어 그랜드 머큐어와 1:1로 비교하기는 어렵습니다.</div>
+
+    <h3>4박 연박 대안 <span class="note">온천을 포기할 경우</span></h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>숙소</th><th>4박 합계</th><th>현 구성 대비</th></tr></thead>
+        <tbody>
+          <tr><td>후지산 전망 4침실 독채</td><td class="num">1,354,906원</td><td class="diff plus">+86,757원</td></tr>
+          <tr><td>유메노오하시 도보 2분 독채</td><td class="num">1,425,358원</td><td class="diff plus">+157,209원</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="note" style="margin-top:16px">
+      <b>왜 하이브리드인가</b> — 7인이 한 집에서 3박을 하면 아침 준비와 아이들 취침이 편합니다. 신후지 독채는 1월 25일 예약이 막혀 4박 연박이 되지 않아 마지막 하룻밤만 온천으로 옮겼고, 그 온천에서 공항까지는 1시간 22분입니다.
+    </div>
+  </div>
+</section>
+
+<!-- =================== CAR =================== -->
+<section id="car">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="no">04 · 렌터카와 이동</div>
+      <h2>한 대의 차로 움직이는 닷새</h2>
+      <p class="lead">운전은 한 사람. 7명과 4박 짐을 한 차에 실어야 해서 8인승 알파드로 정했습니다. 한국 보통면허의 국제운전면허증으로 운전할 수 있는 최대 인승이 8인승입니다.</p>
+    </div>
+
+    <div class="kv">
+      <div class="row"><div class="k">차량</div><div class="v">토요타 알파드 8인승 1대</div></div>
+      <div class="row"><div class="k">운전</div><div class="v">1명 · 한국 보통면허 + 국제운전면허증</div></div>
+      <div class="row"><div class="k">예약</div><div class="v">미완료 — ETC 카드 포함 옵션 권장</div></div>
+    </div>
+
+    <h3>주요 구간 주행 시간</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>구간</th><th>거리</th><th>주행 시간</th></tr></thead>
+        <tbody>
+          <tr><td>나고야 중부국제공항 ↔ 신후지 숙소</td><td class="muted">—</td><td><b>약 2시간 15분</b></td></tr>
+          <tr><td>신후지 숙소 ↔ 후지 사파리 파크</td><td>24.6km</td><td><b>약 37분</b></td></tr>
+          <tr><td>신후지 숙소 ↔ 이즈 파노라마 파크</td><td>47.2km</td><td><b>약 45분</b></td></tr>
+          <tr><td>하마나코 간잔지 온천 ↔ 나고야 중부국제공항</td><td>111.9km</td><td><b>약 1시간 22분</b></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tiny" style="margin-top:9px">구글 지도 기준, 교통 상황에 따라 달라질 수 있습니다. 어린이 2명 카시트·부스터 시트 옵션과 겨울 타이어 여부는 예약할 때 함께 확인하세요.</div>
+
+    <h3>닷새 동선</h3>
+    <div class="card flat" style="font-size:14.5px; line-height:2">
+      <b>나고야 공항</b> → <b>하마마츠</b> <span class="tiny">(1일차 점심)</span> → <b>신후지</b> <span class="tiny">(1~3일차 숙소)</span> → <b>후지노미야</b> <span class="tiny">(2일차)</span> → <b>시미즈</b> <span class="tiny">(4일차)</span> → <b>하마나코</b> <span class="tiny">(4일차 밤)</span> → <b>나고야 공항</b> <span class="tiny">(5일차)</span>
+    </div>
+
+    <h3>귀국일 역산 <span class="note">1/25(월)</span></h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th style="width:80px">시각</th><th>일정</th><th>메모</th></tr></thead>
+        <tbody>
+          <tr><td class="on">08:30</td><td>하마나코 숙소 출발</td><td class="tiny">짐은 전날 밤에 미리 차에 싣기</td></tr>
+          <tr><td class="on">09:50</td><td>나고야 중부국제공항 도착</td><td class="tiny">약 1시간 20분 주행</td></tr>
+          <tr><td class="on">10:00</td><td>렌터카 반납 · 출국 수속</td><td class="tiny">주유 후 반납</td></tr>
+          <tr><td class="on">11:55</td><td>7C1202 나고야 출발</td><td class="tiny">탑승구는 출국장 전광판 확인</td></tr>
+          <tr><td class="on">14:15</td><td>인천 T1 도착</td><td class="tiny">—</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- =================== PLAN =================== -->
+<section id="plan">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="no">05 · 일자별 일정</div>
+      <h2>하루씩 보는 4박 5일</h2>
+      <p class="lead">1월의 후지 기슭은 해가 짧습니다. 아침은 느긋하게, 오후에 야외 일정을 몰아 넣었습니다. 아래 시각은 이동 소요 시간을 기준으로 잡은 예상치입니다.</p>
+    </div>
+
+    <!-- DAY 1 -->
+    <article class="day">
+      <div class="day-head"><span class="d">DAY 1</span><span class="date">1월 21일 목</span><span class="what">나고야에서 신후지로, 첫날은 이동</span></div>
+      <ul class="tl">
+        <li><span class="t">10:55</span><span>나고야 중부국제공항 도착 · 입국 수속</span></li>
+        <li><span class="t">11:30</span><span>공항 렌터카 카운터에서 <b>알파드 수령</b> <span class="tiny">(국제면허증·여권 제시)</span></span></li>
+        <li><span class="t">12:00</span><span>신토메이 고속도로로 하마마츠 방향 이동</span></li>
+        <li><span class="t">13:30</span><span>하마마츠 명물 점심 — 장어덮밥(우나기) 또는 하마마츠 교자</span></li>
+        <li><span class="t">15:30</span><span>신후지 독채 <b>체크인</b> · 짐 풀고 휴식</span></li>
+        <li><span class="t">18:30</span><span>로컬 와규 또는 회전초밥 저녁, 동네 슈퍼에서 다음날 아침거리 장보기</span></li>
+      </ul>
+    </article>
+
+    <!-- DAY 2 -->
+    <article class="day">
+      <div class="day-head"><span class="d">DAY 2</span><span class="date">1월 22일 금</span><span class="what">후지산 데이 — 한 방향으로 천천히</span></div>
+      <ul class="tl">
+        <li><span class="t">오전</span><span><b>마카이노 목장</b> — 동물 먹이주기, 후지산 그네, 젤라또. 아이들이 가장 오래 머무를 곳 <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=%E3%81%BE%E3%81%8B%E3%81%84%E3%81%AE%E7%89%A7%E5%A0%B4" target="_blank" rel="noopener">지도</a></span></li>
+        <li><span class="t">점심</span><span><b>오미야 요코초</b>(후지노미야) — 후지노미야 야키소바 <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=%E3%81%8A%E5%AE%AE%E6%A8%AA%E4%B8%81" target="_blank" rel="noopener">지도</a></span></li>
+        <li><span class="t">오후</span><span><b>후지산 혼구 센겐타이샤</b> — 숲길 참배로, 계단이 적어 아이와 함께 무리 없음 <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%AF%8C%E5%A3%AB%E5%B1%B1%E6%9C%AC%E5%AE%AE%E6%B5%85%E9%96%93%E5%A4%A7%E7%A4%BE" target="_blank" rel="noopener">지도</a></span></li>
+        <li><span class="t">오후</span><span><b>시라이토 폭포</b> — 완만한 데크 산책로, 유모차 이동 가능 <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=%E7%99%BD%E7%B3%B8%E3%81%AE%E6%BB%9D" target="_blank" rel="noopener">지도</a></span></li>
+        <li><span class="t">해질녘</span><span><b>유메노오하시</b>(꿈의 대교) 포토존 → 숙소 복귀, 저녁은 숙소식 <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%A4%A2%E3%81%AE%E5%A4%A7%E6%A9%8B" target="_blank" rel="noopener">지도</a></span></li>
+      </ul>
+      <div style="padding:0 18px 18px">
+        <div class="note warn" style="margin-bottom:14px">1월 후지 기슭은 낮에도 5℃ 안팎까지 떨어지고 바람이 강합니다. 방한복과 장갑을 차에 두고, 해가 지기 전에 숙소로 돌아오는 일정으로 잡았습니다.</div>
+        <div class="grid2">
+          <div class="card flat" style="padding:16px">
+            <div class="tiny" style="margin-bottom:6px">가져갈 것</div>
+            <div class="small">· 방한복·장갑·목도리, 아이 손난로<br>· 미끄러지지 않는 신발<br>· 보온병과 아이 간식<br>· 보조배터리 — 추위에 배터리가 빨리 닳습니다</div>
+          </div>
+          <div class="card tint" style="padding:16px">
+            <div class="tiny" style="margin-bottom:6px">움직이는 법</div>
+            <div class="small">· 2일차는 한 방향으로만 — 마카이노에서 유메노오하시까지<br>· 해 지기 전에 숙소로 복귀<br>· 주유는 숙소 근처에서 미리</div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- DAY 3 -->
+    <article class="day">
+      <div class="day-head"><span class="d">DAY 3</span><span class="date">1월 23일 토</span><span class="what">선택 코스 — 일행 상의 후 A / B 중 택 1</span></div>
+      <div class="tabs" role="tablist" aria-label="3일차 코스 선택">
+        <button class="tab-btn" id="tabA" role="tab" aria-selected="true" aria-controls="panelA">A안 · 아이들과 쇼핑</button>
+        <button class="tab-btn" id="tabB" role="tab" aria-selected="false" aria-controls="panelB">B안 · 전망과 체험</button>
+      </div>
+      <div class="tab-panel on" id="panelA" role="tabpanel" aria-labelledby="tabA">
+        <h5>후지 사파리 파크 + 고텐바 프리미엄 아울렛</h5>
+        <div class="meta">신후지에서 37분 (24.6km) · 차로 이동이 많아 추위에 강한 코스</div>
+        <ul>
+          <li>차량 사파리 투어 — 차 안에서 사자·호랑이를 봅니다</li>
+          <li>오후는 아울렛에서 쇼핑, 아이들은 놀이터</li>
+          <li>이동은 대부분 차 안 — 짐과 아이를 내리지 않아도 됩니다</li>
+        </ul>
+        <div class="chips">
+          <a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%AF%8C%E5%A3%AB%E3%82%B5%E3%83%95%E3%82%A1%E3%83%AA%E3%83%91%E3%83%BC%E3%82%AF" target="_blank" rel="noopener">후지 사파리 파크 지도 ↗</a>
+          <a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%BE%A1%E6%AE%BF%E5%A0%B4%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%BB%E3%82%A2%E3%82%A6%E3%83%88%E3%83%AC%E3%83%83%E3%83%88" target="_blank" rel="noopener">고텐바 아울렛 지도 ↗</a>
+        </div>
+      </div>
+      <div class="tab-panel" id="panelB" role="tabpanel" aria-labelledby="tabB">
+        <h5>이즈 파노라마 파크 + 딸기 따기 + 슈젠지 온천</h5>
+        <div class="meta">신후지에서 45분 (47.2km) · 걷는 시간이 많은 코스</div>
+        <ul>
+          <li>로프웨이에서 후지산·이즈 반도 조망</li>
+          <li>1월 제철 <b>딸기 따기</b> 체험</li>
+          <li>슈젠지 온천 마을 산책 후 숙소 복귀</li>
+        </ul>
+        <div class="chips">
+          <a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=%E4%BC%8A%E8%B1%86%E3%83%91%E3%83%8E%E3%83%A9%E3%83%9E%E3%83%91%E3%83%BC%E3%82%AF" target="_blank" rel="noopener">이즈 파노라마 파크 지도 ↗</a>
+          <a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=%E4%BF%AE%E7%A6%85%E5%AF%BA" target="_blank" rel="noopener">슈젠지 지도 ↗</a>
+        </div>
+      </div>
+      <div class="tiny" style="padding:0 18px 16px">A안은 차 안에서 보내는 시간이 길고, B안은 걷는 시간이 많습니다. 두 코스 모두 숙소에서 1시간 안쪽이라 당일 컨디션을 보고 바꿔도 무리가 없습니다.</div>
+    </article>
+
+    <!-- DAY 4 -->
+    <article class="day">
+      <div class="day-head"><span class="d">DAY 4</span><span class="date">1월 24일 일</span><span class="what">바다와 참치, 그리고 온천</span></div>
+      <ul class="tl">
+        <li><span class="t">오전</span><span>독채 체크아웃 → <b>니혼다이라 유메 테라스</b> (360도 전망) <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=%E6%97%A5%E6%9C%AC%E5%B9%B3%E5%A4%A2%E3%83%86%E3%83%A9%E3%82%B9" target="_blank" rel="noopener">지도</a></span></li>
+        <li><span class="t">점심</span><span><b>시미즈항 카시노이치 어시장</b> — 참치덮밥 <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=%E6%B8%85%E6%B0%B4%E6%B8%AF%E6%B2%B3%E5%B2%B8%E3%81%AE%E5%B8%82" target="_blank" rel="noopener">지도</a></span></li>
+        <li><span class="t">오후</span><span><b>미호노마츠바라</b> 해송림 산책 &amp; 에스펄스 드림플라자 <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=%E4%B8%89%E4%BF%9D%E6%9D%BE%E5%8E%9F" target="_blank" rel="noopener">지도</a></span></li>
+        <li><span class="t">저녁</span><span>하마나코 온천 리조트 <b>체크인</b> · 온천과 휴식</span></li>
+      </ul>
+    </article>
+
+    <!-- DAY 5 -->
+    <article class="day">
+      <div class="day-head"><span class="d">DAY 5</span><span class="date">1월 25일 월</span><span class="what">귀국</span></div>
+      <ul class="tl">
+        <li><span class="t">아침</span><span>여유로운 조식, 짐 정리</span></li>
+        <li><span class="t">08:30</span><span>숙소 출발 → 나고야 중부국제공항 (약 1시간 20분)</span></li>
+        <li><span class="t">10:00</span><span>알파드 반납 · 출국 수속</span></li>
+        <li><span class="t">11:55</span><span>7C1202 나고야 출발</span></li>
+        <li><span class="t">14:15</span><span>인천 T1 도착</span></li>
+      </ul>
+      <div class="tiny" style="padding:0 18px 16px">일요일 밤을 온천에서 보내고 월요일 오전에 돌아오는 일정이라, 아이들은 화요일부터 학교·유치원에 갈 수 있습니다.</div>
+    </article>
+  </div>
+</section>
+
+<!-- =================== CHECK =================== -->
+<section id="check">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="no">06 · 예약 전 체크리스트</div>
+      <h2>확정 전에 확인할 다섯 가지</h2>
+      <p class="lead">지금까지 확정된 금액은 항공과 숙소뿐입니다. 렌터카·식비·입장료는 예약과 현장 결제로 남아 있습니다. 항목을 눌러 체크해 두세요.</p>
+    </div>
+
+    <div class="check">
+      <div class="check-top"><span>탭해서 체크 · 이 브라우저에만 저장됩니다</span><span class="prog" id="prog">0 / 5</span></div>
+      <ul id="checks">
+        <li><label><input type="checkbox" data-k="c1"><span>일행 상의 후 항공(제주항공)·숙소(하이브리드) 최종 확정, 3일차 A안/B안 선택<span class="why">이 문서의 모든 금액은 이 결정에 맞춰 다시 조회해야 합니다</span></span></label></li>
+        <li><label><input type="checkbox" data-k="c2"><span>탑승자 7명(성인 5 · 어린이 2) 여권상 영문 성명과 생년월일 취합<span class="why">항공 예매 필수 — 여권 만료일도 함께 확인</span></span></label></li>
+        <li><label><input type="checkbox" data-k="c3"><span>운전자 국제운전면허증 발급, 한국 면허증·여권 지참 확인<span class="why">8인승 이하만 운전 가능 — 알파드는 8인승</span></span></label></li>
+        <li><label><input type="checkbox" data-k="c4"><span>어린이 2명 나이에 맞는 카시트·부스터 시트 대여 옵션 확인<span class="why">일본은 6세 미만 카시트 의무</span></span></label></li>
+        <li><label><input type="checkbox" data-k="c5"><span>그랜드 머큐어 하마나코 3실 예약 가능 여부 재확인, 알파드 8인승 예약(ETC 카드 포함)<span class="why">호텔 직접 검색에서는 3실 예약 불가로 표시된 상태</span></span></label></li>
+      </ul>
+    </div>
+
+    <div class="card" style="margin-top:14px; background:var(--teal); border-color:var(--teal); color:#fff">
+      <div style="font-size:11.5px; letter-spacing:.14em; color:#a8c3c8; font-weight:500">NEXT</div>
+      <div style="margin-top:7px; font-size:14.5px; line-height:1.8">
+        ① 항공·숙소·3일차 코스 확정 &nbsp;→&nbsp; ② 여권 정보 7명분 취합 &nbsp;→&nbsp; ③ 제주항공 발권 후 숙소 예약
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="big">2027년 1월, 후지산 기슭에서</div>
+    <div class="tiny" style="color:#a9c1c5; font-size:12.5px; line-height:1.75">
+      2026년 11월 15일에 조회한 항공·숙소 요금을 11월 18일 기준으로 정리한 <b style="color:#fff; font-weight:500">검토안</b>입니다.<br>
+      항공과 숙소 모두 아직 결제하지 않았고, 요금과 잔여석은 예매하는 시점에 달라질 수 있습니다.
+    </div>
+    <div class="row">
+      <button class="share" id="share" type="button">링크 복사</button>
+      <a class="share" href="shizuoka-family-trip-2027.pdf" download>인쇄용 PDF (8쪽)</a>
+      <a class="share" href="#top">맨 위로 ↑</a>
+    </div>
+    <div class="sep"></div>
+    <div class="tiny" style="color:#7e979c">일행 공유용 · 2026년 11월 18일 작성 · 富士山 3,776 m</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  // ---- tabs ----
+  var tabs = [document.getElementById('tabA'), document.getElementById('tabB')];
+  var panels = [document.getElementById('panelA'), document.getElementById('panelB')];
+  function pick(i){
+    tabs.forEach(function(t, j){
+      t.setAttribute('aria-selected', j === i ? 'true' : 'false');
+      panels[j].classList.toggle('on', j === i);
+    });
+  }
+  tabs.forEach(function(t, i){
+    t.addEventListener('click', function(){ pick(i); });
+    t.addEventListener('keydown', function(e){
+      if(e.key === 'ArrowRight' || e.key === 'ArrowLeft'){
+        var n = ((i + (e.key === 'ArrowRight' ? 1 : -1)) + 2) % 2;
+        pick(n); tabs[n].focus(); e.preventDefault();
+      }
+    });
+  });
+
+  // ---- checklist ----
+  var boxes = Array.prototype.slice.call(document.querySelectorAll('#checks input'));
+  var prog = document.getElementById('prog');
+  function upd(){
+    var n = boxes.filter(function(b){ return b.checked; }).length;
+    prog.textContent = n + ' / ' + boxes.length;
+  }
+  boxes.forEach(function(b){
+    try{
+      if(localStorage.getItem('szk-' + b.dataset.k) === '1') b.checked = true;
+    }catch(e){}
+    b.addEventListener('change', function(){
+      try{ localStorage.setItem('szk-' + b.dataset.k, b.checked ? '1' : '0'); }catch(e){}
+      upd();
+    });
+  });
+  upd();
+
+  // ---- nav highlight ----
+  var links = Array.prototype.slice.call(document.querySelectorAll('.nav a'));
+  var secs = links.map(function(a){ return document.querySelector(a.getAttribute('href')); });
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          var k = secs.indexOf(en.target);
+          links.forEach(function(a, i){ a.classList.toggle('on', i === k); });
+        }
+      });
+    }, {rootMargin:'-45% 0px -50% 0px', threshold:0});
+    secs.forEach(function(s){ if(s) io.observe(s); });
+  }
+
+  // ---- copy link ----
+  var btn = document.getElementById('share');
+  btn.addEventListener('click', function(){
+    var url = location.href;
+    function done(ok){
+      btn.textContent = ok ? '링크가 복사됐어요 ✓' : '주소창의 주소를 복사해 주세요';
+      btn.classList.add('ok');
+      setTimeout(function(){ btn.textContent = '링크 복사'; btn.classList.remove('ok'); }, 2200);
+    }
+    if(navigator.clipboard && location.protocol === 'https:'){
+      navigator.clipboard.writeText(url).then(function(){ done(true); }, function(){ done(false); });
+    } else {
+      var ta = document.createElement('textarea');
+      ta.value = url; ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      var ok = false;
+      try{ ok = document.execCommand('copy'); }catch(e){}
+      document.body.removeChild(ta);
+      done(ok);
+    }
+  });
+})();
+</script>
+</body>
+</html>
